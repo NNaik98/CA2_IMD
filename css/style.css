@@ -1,0 +1,260 @@
+
+/* import fonts from fonts.css file */ 
+@import url(/Roboto-Regular.ttf);
+
+
+
+/* start navigation */ 
+
+.main-menu{
+    padding: 0;
+    text-transform: uppercase;
+    font-family: cursive;
+    
+}
+/* end navigation */ 
+
+/* Banner Area */ 
+
+/*
+.banner-image > img {
+    width: 50%;
+     padding-top: 50%;
+}
+*/
+body {
+    background-image:url("../img/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.main {
+    padding: 0;
+    margin: 0;
+}
+.main .banner .site-title h3{
+    padding-top: 0%;
+    font-weight: 500;
+       margin-left: 40%;
+    margin-right: 40%;
+    
+}
+
+.main .banner .site-title h3::after{
+    content: " ";
+    height: 5px;
+    width: 15vw;
+    background: skyblue;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+    
+}
+
+.main .banner .site-title h1{
+    font-size: 5em;
+      margin-left: 30%;
+    margin-right: 30%;
+    font-family: cursive;
+}
+
+.site-buttons{
+    font-size: 1em;
+      margin-left: 30%;
+    margin-right: 20%;
+}
+
+.banner-button{
+    margin-left: 2%;
+    margin-top: 2%;
+    color: deepskyblue;
+    background-color: white;
+    font-family: cursive;
+    border-radius: 2em;
+    border-color: black;
+    cursor: pointer;
+}
+
+
+.main .banner .site-title h4{
+    font-size: 1.7em;
+      margin-left:5%;
+    margin-right: 5%;
+    font-family: cursive;
+    
+}
+
+.banner-image > img{
+    
+    border-radius: 2em;
+    
+    margin-top: 10em;
+    width:20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
+
+/* End Banner Area */ 
+
+br{
+    top: 2em;
+}
+
+
+/* Start About Area */ 
+
+.main .about-me{
+    padding: 7em 4em 2em 7em;
+}
+
+.main .about-me .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px;
+    letter-spacing: 21px;
+}
+
+.main .skill-me .skill-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px;
+    letter-spacing: 21px;
+}
+
+
+.main .about-me .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+.about-image {
+    
+    margin-top: 4em;
+    margin-left: 20%;
+    
+}
+
+.skill-image {
+    
+    margin-top: 7em;
+    margin-left: 20%;
+    
+}
+.skill-image > img {
+    
+    height: 100%;
+    
+}
+
+.skill-me {
+  background-color: white;
+}
+/* End About Area */ 
+
+/*Education*/
+
+#Education, #Module{
+   margin-top:1.2rem;
+   height: 80px;
+}
+
+.nav-link.active, .nav-link:focus,  .nav-link:hover {
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 3px solid #1aafff;
+}
+a.nav-link{
+  color:#333;
+}
+
+/*h1*/
+
+h1.sixth { position: relative; text-align: center; margin: 1em; font-family: cursive;}
+
+h1.sixth:before,
+h1.sixth:after {
+	content: '[';
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	height: 100%;
+	font-size: 1.25em;
+	color: deepskyblue;
+	
+	transition: all 0.5s ease;
+}
+
+h1.sixth:after { content: ']'; }
+
+h1.sixth:hover:before { 
+	transform: translateX(-5px);
+}
+
+h1.sixth:hover:after { 
+	transform: translateX(5px);
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 30%;
+    height: 100%
+  padding: 0 10px;
+    margin-left: 10%;
+        margin-left:3%;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    
+    
+    
+}
+
+#more {display: none;}
+
+.container1 {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.communication {width: 90%; background-color: #4CAF50;}
+.time-manage {width: 70%; background-color: #2196F3;}
+.multi-task {width: 80%; background-color: #4CAF50;}
+.hard-working {width: 90%; background-color: #4CAF50;}
+
+.cloud {width: 85%; background-color: #4CAF50;}
+.launguage {width: 70%; background-color: #2196F3;}
+.script {width: 60%; background-color: #4CAF50;}
+.platform {width: 95%; background-color: #4CAF50;}
+.git {width: 95%; background-color: #4CAF50;}
+.analyse {width: 85%; background-color: #4CAF50;}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+#project{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#workrow{
+    background-color: white;
+}
+.contact-me{
+    background-color: white;
+}
