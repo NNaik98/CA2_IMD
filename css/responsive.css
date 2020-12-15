@@ -161,6 +161,40 @@
 
 }
 
+@media only screen and (max-width: 1920px){
+   .main .banner .site-title h1{
+    margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+      
+    }
+    
+    
+.main .banner .site-title h3::after{
+    content: " ";
+    height: 5px;
+    width: 18vw;
+
+    
+}
+    
+    .main .banner .site-title h4{
+   
+      margin-left:15%;
+    margin-right: 15%;
+    
+    
+}
+
+    .container{
+        max-width: 100%;
+    }
+    #contact {
+        margin-top: 10%;
+    }
+
+}
+
 /* Responsive columns */
 @media screen and (max-width: 600px) {
   .column {
