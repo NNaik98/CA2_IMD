@@ -49,7 +49,7 @@ body {
     width: 15vw;
     background: skyblue;
     display: inline-block;
-    margin-left: 5%;
+    margin:0;
     transform: translateY(-10px);
     text-align:center;
     
@@ -235,7 +235,7 @@ button a {
 
 .cloud {width: 85%; background-color: #4CAF50;}
 .launguage {width: 70%; background-color: #2196F3;}
-.script {width: 60%; background-color: #4CAF50;}
+.script {width: 60%; background-color: #2196F3;}
 .platform {width: 95%; background-color: #4CAF50;}
 .git {width: 95%; background-color: #4CAF50;}
 .analyse {width: 85%; background-color: #4CAF50;}
