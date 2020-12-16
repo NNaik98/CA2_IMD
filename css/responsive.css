@@ -3,6 +3,9 @@
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 340px){
+    
+    
+    
     .main .banner .site-title h1{
        font-size: 1em;
        margin:0%;
@@ -33,6 +36,13 @@
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
+    
+.banner-image {
+    
+    border-radius: 2em;
+    margin-top: -4em;
+ 
+}
   .main .banner .site-title h1{
        font-size: 2em;
        margin:0%;
@@ -62,6 +72,7 @@
 
     .container{
         max-width: 100%;
+        overflow: hidden;
     }
     
     #contact {
@@ -79,7 +90,7 @@
 
 
 /* if the viewport is equal to 1910px or less than that  */
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width: 1024px){
     
     .banner-image > img{
     
@@ -103,25 +114,31 @@
        font-size: 4em;
        margin:2%;
        padding: 0;
+       font-family: cursive;
 
     
     }
     
     .main .banner .site-title h4{
    
-      margin-left:10%;
-    margin-right: 10%;
+      font-size: 2em;
         text-align: center;
     
     
 }
+    .site-buttons{
+      margin-left: 20%;
+    margin-right: 20%;
+}
+
 
     .container{
         max-width: 100%;
+        overflow: hidden;
     }
     
-    #contact {
-        margin-top:12em;
+    .column{
+        margin-bottom: 1em;
     }
      #valdiationbutton{
         margin-top: 1%;
@@ -132,33 +149,88 @@
 }
 
 
+@media only screen and (max-width: 1280px){
+    
+    .banner-image > img{
+    
+    border-radius: 2em;
+    
+    margin-top: 5em;
+    width:20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
 
-/* if the viewport is equal to 1910px or less than that */ 
-@media only screen and (max-width: 1800px){
-   .main .banner .site-title h1{
-    text-align: center;
-    }
-    
-    
 .main .banner .site-title h3::after{
-    content: " ";
-    height: 5px;
-    margin: 0;
-    width: 15vw;
-    text-align: center;
+ 
+    width: 18vw;
 
     
 }
+
+    
+   .main .banner .site-title h1{
+       font-size: 4em;
+       margin:2%;
+       padding: 0;
+       font-family: cursive;
+       
+
+    
+    }
     
     .main .banner .site-title h4{
    
-    text-align: center;
+      
+        text-align: center;
     
     
 }
 
     .container{
         max-width: 100%;
+    }
+    
+    .column{
+        margin-bottom: 15em;
+      
+    }
+     #valdiationbutton{
+        margin-top: 1%;
+    
+    }
+    #contact{
+        margin: 0;
+    }
+
+
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1440px){
+   .main .banner .site-title h1{
+    text-align: center;
+    }
+    
+    
+    .main .banner .site-title h3{
+        margin-left: 2em;
+    
+    
+}
+
+    
+    .main .banner .site-title h4{
+   
+    text-align: center; 
+    
+}
+
+    .container{
+        max-width: 100%;
+        overflow: hidden;
     }
     #contact {
         margin-top: 10em;
@@ -166,58 +238,177 @@
 
 }
 
-@media only screen and (max-width: 1920px){
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1660px){
    .main .banner .site-title h1{
-       text-align: center;
-     
-      
+    text-align: center;
     }
     
     
-.main .banner .site-title h3::after{
-    content: " ";
-    height: 5px;
-    width: 18vw;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-
+    .main .banner .site-title h3{
+        margin-left: 2.5em;
+    
     
 }
+    .site-buttons{
+      margin-left: 30%;
+}
+
     
     .main .banner .site-title h4{
    
-      text-align: center;
-    
+    text-align: center; 
+        
     
 }
 
     .container{
         max-width: 100%;
+        overflow: hidden;
     }
     #contact {
-        margin-top: 10%;
+        margin: 0;
+    }
+    .column{
+        margin-bottom: 10em;
+    }
+
+}
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1920px){
+    
+.banner-image > img{    
+   margin-left: 40%;
+
+}
+    .site-buttons{
+      margin-left: 34%;
+}
+    
+   .main .banner .site-title h1{
+    text-align: center;
+       
     }
     
-    #valdiationbutton{
+    
+    .main .banner .site-title h3{
+        text-align: center;
+        margin: 0;
+    
+    
+}
+
+    
+    .main .banner .site-title h4{
+   
+    text-align: center; 
+    
+}
+
+  .container{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    #contact {
+        margin: 0;
+    }
+    .column{
+        margin-bottom: 2em;
+    }
+    }
+
+
+@media only screen and (max-width: 2560px){
+    
+.banner-image > img{    
+   margin-left: 40%;
+
+}
+    
+   .main .banner .site-title h1{
+    text-align: center;
+    }
+    
+    
+    .main .banner .site-title h3{
+        text-align: center;
+        margin: 0;
+    
+    
+}
+
+    
+    .main .banner .site-title h4{
+   
+    text-align: center; 
+    
+}
+
+    .container{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    #contact {
+        margin-top: 2em;
+    }
+        #valdiationbutton{
         margin-top: 1%;
     
     }
+
+}
+/*
+@media only screen and (max-width: 3860px){
     
-    .site-buttons{
-    margin-left: 30%;
+.banner-image > img{    
+   margin-left: 40%;
+
 }
     
-    .contact-me{
+   .main .banner .site-title h1{
+    text-align: center;
+    }
+    
+    
+    .main .banner .site-title h3{
+        text-align: center;
+        margin: 0;
+    
+    
+}
+       
+.site-buttons{
+    
+    font-size: 2em;
+      margin-left: 3%;
+    margin-right: 0%;
+}
+
+    
+    .main .banner .site-title h4{
+   
+    text-align: center; 
+    
+}
+
+    .container{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    #contact {
         margin-top: 0;
     }
-
-    .site-buttons{
-        text-align: center;
+        #valdiationbutton{
+        margin-top: 1%;
+    
+    }
+    .column{
+        margin-bottom: -10em;
     }
 
 }
-
+*/
 /* Responsive columns */
 @media screen and (max-width: 600px) {
   .column {
@@ -321,121 +512,6 @@
 }
 
 
-/* Responsive columns */
-@media screen and (max-width: 1000px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 50px;
-      margin: 0 0 100px;
-  }
-      .main .banner .site-title h1{
-       font-size: 4em;
-       margin:0%;
-       padding: 0;
-      text-align: center;
-    
-    }
-    
-    
-.main .banner .site-title h4{
-    font-size: 1.7em;
-      text-align: center;
-    font-family: cursive;
-    
-}
-    
-    
-.banner-image > img{
-    
-    border-radius: 2em;
-  
-    
-    margin-top: 10em;
-    width:40%;
-    margin-left: 30%;
-    margin-right: 40%;
-}
-    
-    
-.main .banner .site-title h3::after{
-    content: " ";
-    height: 5px;
-    width: 30vw;
-    background: skyblue;
-    display: inline-block;
-    
-    transform: translateY(-10px);
-    
-}
-
-    
-.site-buttons{
-    
-    font-size: 0em;
-      margin-left: 0%;
-    margin-right: 0%;
-}
-.banner-button{
-    width: 340em;
-    margin-left: 0%;
-    margin-top: 2%;
-    color: deepskyblue;
-    background-color: white;
-    font-family: cursive;
-    border-radius: 2em;
-    border-color: black;
-    cursor: pointer;
-}
-    
-    .main .about-me{
-    padding: 0em 0em 0em 0em;
-}
-    #Education{
-   margin-top:1.2rem;
-   height: 80px;
-}
-    .about-image {
-    
-    margin:0;
-        width: 50%;
-        margin-left: 25%;
-            margin-right:25%
-        
-    
-
-    
-}
-    .about-title{
-        text-align: center;
-    }
-    #Module{
-        margin-bottom: 1em;
-        
-    }
-
-    .skill-image {
-    
-    margin-top: 2em;
-    margin-left: 0%;
-    
-}
-    
-    .skill-title{
-        text-align: center;
-    }
-    #university-title, #work-title{
-        margin: 0em;
-        width: 100%;
-    }
-    #contact {
-        margin-top: -7em;
-    }
-    #valdiationbutton{
-        margin-top: 4%;
-    
-    }
-}
 
 
   

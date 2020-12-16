@@ -1,6 +1,4 @@
 
-/* import fonts from fonts.css file */ 
-@import url(/Roboto-Regular.ttf);
 
 
 
@@ -12,16 +10,6 @@
     font-family: cursive;
     
 }
-/* end navigation */ 
-
-/* Banner Area */ 
-
-/*
-.banner-image > img {
-    width: 50%;
-     padding-top: 50%;
-}
-*/
 body {
     background-image:url("../img/back1.jpg");
     background-repeat: no-repeat;
@@ -36,6 +24,18 @@ body {
     padding: 0;
     margin: 0;
 }
+
+
+.banner-image > img{
+    
+    border-radius: 2em;
+    
+    margin-top: 5em;
+    width:20%;
+    margin-left: 43%;
+    margin-right: 40%;
+}
+
 .main .banner .site-title h3{
     padding-top: 0%;
     font-weight: 500;
@@ -63,7 +63,7 @@ body {
 
 .site-buttons{
     font-size: 1em;
-      margin-left: 30%;
+      margin-left: 20%;
     margin-right: 20%;
 }
 
@@ -84,16 +84,6 @@ body {
       text-align: center
     font-family: cursive;
     
-}
-
-.banner-image > img{
-    
-    border-radius: 2em;
-    
-    margin-top: 10em;
-    width:20%;
-    margin-left: 43%;
-    margin-right: 40%;
 }
 
 
